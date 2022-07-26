@@ -1,4 +1,7 @@
-<?php include'Header.php' ?>
+<?php
+include "$_SERVER[DOCUMENT_ROOT]/Admin/include/Header.php";
+include "$_SERVER[DOCUMENT_ROOT]/Admin/include/SideNav.php";
+ ?>
 <main>
      <div class="container-fluid px-4">
       <h1 class="mt-4">Profile</h1>
@@ -92,4 +95,6 @@
       </div>
         </div>
 </main>
-<?php include'footer.php' ?>
+<?php
+include "$_SERVER[DOCUMENT_ROOT]/Admin/include/footer.php";
+ ?>

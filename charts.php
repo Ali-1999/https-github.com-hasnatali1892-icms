@@ -1,5 +1,6 @@
 <?php
-include('Header.php');
+include "$_SERVER[DOCUMENT_ROOT]/Admin/include/Header.php";
+include "$_SERVER[DOCUMENT_ROOT]/Admin/include/SideNav.php";
  ?>
  <main>
      <div class="container-fluid px-4">

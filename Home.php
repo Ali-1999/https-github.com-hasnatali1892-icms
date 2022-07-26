@@ -7,15 +7,14 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>New choice Food</title>
-        <link rel="shortcut icon" type="image/png" href="../assets/img/logo.png">
+
         <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="assets/css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     </head>
     <body class="sb-nav-fixed">
@@ -58,9 +57,7 @@
             </div>
 <div id="layoutSidenav_content">
 <main>
-  <section class="vh-100" style="background-color: #ccccff;">
-  <div class="container-fluid px-4">
-  <section class="vh-100" style="background-color: #ccccff;">
+
   <div class="container-fluid px-4">
     <h1 class="text-lg-center" > Wellcome to </h1>
     <div class="text-center">
@@ -76,7 +73,7 @@
       			   <div class="d-flex align-items-center">
                  <div>
                    <p class="mb-2 text-secondary">Login As</p>
-                   <h4 class="my-1 text-info">Admin</h4>
+                   <h4 class="mt-1">Admin</h4>
                     <a class="my1 text-black stretched-link" href="login.php">Continue <i class="fas fa-angle-right"> </i></a>
                  </div>
       				   <div class="widgets-icons-2 rounded-circle bg-gradient-bloody text-white ms-auto"><i class="fa fa-user"></i>
@@ -91,7 +88,7 @@
          			   <div class="d-flex align-items-center">
                     <div>
                       <p class="mb-2 text-secondary">Login As</p>
-                      <h4 class="my-1 text-info">Cashier</h4>
+                      <h4 class="mt-1">Cashier</h4>
                        <a class="my1 text-black stretched-link" href="login.php">Continue <i class="fas fa-angle-right"> </i></a>
                     </div>
          				   <div class="widgets-icons-2 rounded-circle bg-gradient-bloody text-white ms-auto"><i class="fa fa-user"></i>
@@ -106,7 +103,7 @@
            			   <div class="d-flex align-items-center">
                       <div>
                         <p class="mb-2 text-secondary">Login As</p>
-                        <h4 class="my-1 text-info">Finanace Manager</h4>
+                        <h4 class="mt-1">Finanace Manager</h4>
                          <a class="my1 text-black stretched-link" href="login.php">Continue <i class="fas fa-angle-right"> </i></a>
                       </div>
            				   <div class="widgets-icons-2 rounded-circle bg-gradient-bloody text-white ms-auto"><i class="fa fa-user"></i>
@@ -121,7 +118,7 @@
              			   <div class="d-flex align-items-center">
                         <div>
                           <p class="mb-2 text-secondary">Login As</p>
-                          <h4 class="my-1 text-info">Product Manager</h4>
+                          <h4 class="mt-1">Product Manager</h4>
                            <a class="my1 text-black stretched-link" href="login.php">Continue <i class="fas fa-angle-right"> </i></a>
                         </div>
              				   <div class="widgets-icons-2 rounded-circle bg-gradient-bloody text-white ms-auto"><i class="fa fa-user"></i>
@@ -152,11 +149,11 @@
       </footer>
   </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-      <script src="js/scripts.js"></script>
+      <script src="assets/js/scripts.js"></script>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
 
       <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
-      <script src="js/datatables-simple-demo.js"></script>
+      <script src="assets/js/datatables-simple-demo.js"></script>
       </body>
       </html>
