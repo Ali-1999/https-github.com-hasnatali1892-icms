@@ -6,11 +6,11 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>New choice Food</title>
-        <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
-        <link rel="shortcut icon" type="image/png" href="../assets/img/logo.png">
+        <link rel="shortcut icon" type="image/png" href="/ICMS(ADMIN)-Master/assets/img/logo.png">
+
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="assets/css/styles.css" rel="stylesheet" />
-        <link href="../assets/css/styles.css" rel="stylesheet" />
+        <link href="/ICMS(ADMIN)-Master/assets/css/styles.css" rel="stylesheet" />
+
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -18,7 +18,7 @@
       <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="../Dashboard.php">New Choice Food</a>
+            <a class="navbar-brand ps-3" href="/ICMS(ADMIN)-Master/Dashboard.php">New Choice Food</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -31,9 +31,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="../Profile.php">Profile</a></li>
+                        <li><a class="dropdown-item" href="/ICMS(ADMIN)-Master/Profile.php">Profile</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="login.php">Logout</a></li>
+                        <li><a class="dropdown-item" href="/ICMS(ADMIN)-Master/Home.php">Logout</a></li>
                     </ul>
                 </li>
             </ul>

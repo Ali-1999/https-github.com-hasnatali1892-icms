@@ -30,7 +30,7 @@
          </div>
                </div>
            </div>
-           <table class="table table-bordered table-striped">
+           <table class="table table-scroll table-striped">
                <thead>
           <tr>
            <th>
@@ -352,6 +352,4 @@
  </div>
 </div>
 </main>
-<?php
-include "$_SERVER[DOCUMENT_ROOT]/Admin/include/footer.php";
- ?>
+<?php include('..\include\footer.php') ?>

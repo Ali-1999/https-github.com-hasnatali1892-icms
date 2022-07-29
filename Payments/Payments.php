@@ -30,7 +30,7 @@ include "$_SERVER[DOCUMENT_ROOT]/Admin/include/SideNav.php";
             </div>
                </div>
            </div>
-           <table class="table table-bordered table-striped">
+           <table class="table table-scroll table-striped">
                <thead>
                    <tr>
            <th>

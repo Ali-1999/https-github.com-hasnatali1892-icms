@@ -3,7 +3,7 @@
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
             <div class="sb-sidenav-menu">
                 <div class="nav">
-                    <a class="nav-link" href="/Admin/Dashboard.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Dashboard.php">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Dashboard
                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
@@ -16,39 +16,39 @@
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
                               <hr class="dropdown-divider" >
-                            <a class="nav-link" href="/Admin/Users/UserDashboard.php">Users</a>
+                            <a class="nav-link" href="/ICMS(ADMIN)-Master/Users/UserDashboard.php">Users</a>
                             <hr class="dropdown-divider" >
-                            <a class="nav-link" href="/Admin/Roles/role.php">Roles</a>
+                            <a class="nav-link" href="/ICMS(ADMIN)-Master/Roles/role.php">Roles</a>
                               <hr class="dropdown-divider" >
-                            <a class="nav-link" href="/Admin/Adminpermission/Permissions.php">Permissions</a>
+                            <a class="nav-link" href="/ICMS(ADMIN)-Master/ICMS(ADMIN)-Masterpermission/Permissions.php">Permissions</a>
                               <hr class="dropdown-divider" >
                         </nav>
                     </div>
-                    <a class="nav-link" href="/Admin/Orders/Orders.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Orders/Orders.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Orders
                     </a>
-                    <a class="nav-link" href="/Admin/Stock/stock.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Stock/stock.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Stock
                     </a>
-                    <a class="nav-link" href="/Admin/Products/ProductMenu.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Products/ProductMenu.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Products
                     </a>
-                    <a class="nav-link" href="/Admin/ingrediants/ingrediants.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/ingrediants/ingrediants.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Ingreadiants
                     </a>
-                    <a class="nav-link" href="/Admin/Payments/PaymentDashboard.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Payments/PaymentDashboard.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Payments
                     </a>
-                    <a class="nav-link" href="/Admin/Sales/SalesDashboard.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Sales/SalesDashboard.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Sales
                     </a>
-                    <a class="nav-link" href="/Admin/Expenses/ExpensesDashboard.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Expenses/ExpensesDashboard.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Expenses
                     </a>

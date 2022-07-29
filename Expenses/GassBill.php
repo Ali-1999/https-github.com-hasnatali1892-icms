@@ -1,6 +1,5 @@
-<?php
-include "$_SERVER[DOCUMENT_ROOT]/Admin/include/Header.php";
-include "$_SERVER[DOCUMENT_ROOT]/Admin/include/SideNav.php"; ?>
+<?php include('..\include\Header.php') ?>
+<?php include('..\include\SideNav.php') ?>
  <main>
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Dashboard</h1>
@@ -9,11 +8,11 @@ include "$_SERVER[DOCUMENT_ROOT]/Admin/include/SideNav.php"; ?>
                               <li class="breadcrumb-item"><a href="ExpensesDashboard.php">Expenses Dashboard</a></li>
                             <li class="breadcrumb-item active">Gass Bill</li>
                         </ol>
-                        <div class="container">
+      <div class="container">
        <div class="table-wrapper">
            <div class="table-title">
                <div class="row">
-                   <div class="col-sm-6">
+          <div class="col-sm-6">
            <h2>Manage <b>Expenses</b></h2><br>
           <input class="form-control" id="myInput" type="text" placeholder="Search..">
          </div>
@@ -29,7 +28,7 @@ include "$_SERVER[DOCUMENT_ROOT]/Admin/include/SideNav.php"; ?>
               </div>
                </div>
            </div>
-           <table class="table table-bordered table-striped">
+           <table class="table table-scroll table-striped">
                <thead>
                    <tr>
            <th>
@@ -300,6 +299,4 @@ include "$_SERVER[DOCUMENT_ROOT]/Admin/include/SideNav.php"; ?>
  </div>
 </div>
 </main>
-<?php
-include "$_SERVER[DOCUMENT_ROOT]/Admin/include/footer.php";
- ?>
+<?php include('..\include\Footer.php') ?>

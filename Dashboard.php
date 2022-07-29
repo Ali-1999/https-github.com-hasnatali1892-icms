@@ -12,7 +12,7 @@
                                             <h4 class="mt-1">30</h4>
                                       </div>
                                       <div class="card-footer d-flex align-items-center justify-content-between">
-                                          <a class="small text-white stretched-link" href="Orders.php">View Details</a>
+                                          <a class="small text-white stretched-link" href="Orders/Orders.php">View Details</a>
                                           <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                       </div>
                                   </div>
@@ -24,7 +24,7 @@
                                             <h4 class="mt-1">10</h4>
                                       </div>
                                       <div class="card-footer d-flex align-items-center justify-content-between">
-                                          <a class="small text-white stretched-link" href="Role.php">View Details</a>
+                                          <a class="small text-white stretched-link" href="Roles/Role.php">View Details</a>
                                           <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                       </div>
                                   </div>
@@ -36,7 +36,7 @@
                                             <h4 class="mt-1">40,000 Pkr</h4>
                                       </div>
                                       <div class="card-footer d-flex align-items-center justify-content-between">
-                                          <a class="small text-white stretched-link" href="Ingrediants.php">View Details</a>
+                                          <a class="small text-white stretched-link" href="ingrediants/Ingrediants.php">View Details</a>
                                           <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                       </div>
                                   </div>
@@ -49,7 +49,7 @@
                                             <h4 class="mt-1">320 Cartons</h4>
                                       </div>
                                       <div class="card-footer d-flex align-items-center justify-content-between">
-                                          <a class="small text-white stretched-link" href="stock.php">View Details</a>
+                                          <a class="small text-white stretched-link" href="Stock/stock.php">View Details</a>
                                           <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                       </div>
                                   </div>
@@ -61,7 +61,7 @@
                                             <h4 class="mt-1">50,000 Pkr</h4>
                                       </div>
                                       <div class="card-footer d-flex align-items-center justify-content-between">
-                                          <a class="small text-white stretched-link" href="Sales.php">View Details</a>
+                                          <a class="small text-white stretched-link" href="Sales/Sales.php">View Details</a>
                                           <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                       </div>
                                   </div>
@@ -73,7 +73,7 @@
                                             <h4 class="mt-1">34,000 pkr</h4>
                                       </div>
                                       <div class="card-footer d-flex align-items-center justify-content-between">
-                                          <a class="small text-white stretched-link" href="ExpensesDashboard.php">View Details</a>
+                                          <a class="small text-white stretched-link" href="Expenses/ExpensesDashboard.php">View Details</a>
                                           <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                       </div>
                                   </div>
@@ -96,7 +96,7 @@
                                             <h4 class="mt-1"><i class="fa fa-universal-access" aria-hidden="true"></i></h4>
                                       </div>
                                       <div class="card-footer d-flex align-items-center justify-content-between">
-                                          <a class="small text-white stretched-link" href="Permissions.php">View Details</a>
+                                          <a class="small text-white stretched-link" href="permisiion/Permissions.php">View Details</a>
                                           <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                       </div>
                                   </div>
