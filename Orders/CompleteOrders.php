@@ -8,7 +8,7 @@
                               <li class="breadcrumb-item"><a href="Orders.php">Orders</a></li>
                             <li class="breadcrumb-item active">Completed Orders</li>
                         </ol>
-                        <div class="container">
+    <div class="container">
        <div class="table-wrapper">
            <div class="table-title">
                <div class="row">
