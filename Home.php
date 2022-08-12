@@ -38,7 +38,7 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Frozen Food Manufacturer in Burhan!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <div class="masthead-heading text-uppercase">Nice To Meet You</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Click For More Info</a>
             </div>
         </header>

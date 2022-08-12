@@ -2,25 +2,24 @@
 <?php include('..\include\SideNav.php') ?>
  <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">View Users</h1>
+                        <h1 class="mt-4">User Salary</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="../Dashboard.php">Dashboard</a></li>
-                              <li class="breadcrumb-item"><a href="UserDashboard.php">User Dashboard</a></li>
-                            <li class="breadcrumb-item active">View Users</li>
+                            <li class="breadcrumb-item active">Employee Salary</li>
                         </ol>
       <div class="container">
        <div class="table-wrapper">
            <div class="table-title">
                <div class="row">
           <div class="col-sm-6">
-           <h2>Manage <b>Users</b></h2><br>
+           <h2>User <b>Salary</b></h2><br>
           <input type="date" class="form-control" name="" value="">
          </div>
          <div class="col-sm-6">
            <br><br>
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete">
-            <i class="material-icons">&#xE15C;</i> Delete User
+            <i class="material-icons">&#xE15C;</i> Delete Salary Record
           </button>
               </div>
                </div>
@@ -36,9 +35,12 @@
            </th>
                        <th>User Id</th>
                        <th>User Name</th>
+
                        <th>Join Date</th>
+                       <th>Total leaves</th>
                        <th>Role</th>
-                       <th>Status</th>
+                       <th>Salary Status</th>
+                       <th>Date</th>
                        <th>Actions</th>
                    </tr>
                </thead>
@@ -53,10 +55,10 @@
                        <td>uid-101</td>
                        <td>Uziar khan</td>
                        <th>12-09-2021</th>
-
+                       <th>8</th>
                        <td>Finanace Manager</td>
-                       <td>Active</td>
-
+                       <td>Paid</td>
+                       <td>10-03-2022</td>
                        <td>
                          <div class="btn-group">
                              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#edit"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</button>
@@ -74,10 +76,10 @@
            <td>Uid-102</td>
            <td>Zaheer</td>
            <th>1-09-2021</th>
-
+           <th>2</th>
            <td>Cashier</td>
-           <td> Active</td>
-
+           <td> Paid</td>
+           <td>10-09-2022</td>
                        <td>
                              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#edit"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</button>
                                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#delete"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></button>
@@ -93,10 +95,10 @@
            <td>Uid-103</td>
            <td>Hashim khan</td>
            <th>8-01-2021</th>
-
+           <th>4</th>
            <td>Finanace Manager</td>
-           <td>Active</td>
-
+           <td>Paid</td>
+           <td>10-09-2022</td>
                            <td>
 
 
@@ -117,10 +119,10 @@
            <td>Uid-104</td>
            <td>Hassan </td>
            <th>12-09-2021</th>
-
+           <th>8</th>
            <td>Labour</td>
-           <td>Active</td>
-
+           <td>Paid</td>
+           <td>10-09-2022</td>
                            <td>
 
 
@@ -141,10 +143,10 @@
                            <td>Uid-109</td>
                            <td>Hamza</td>
                            <th>12-09-2021</th>
-
+                           <th>8</th>
                            <td>Labour</td>
-                           <td>Active</td>
-
+                           <td>Paid</td>
+                           <td>10-09-2022</td>
                            <td>
                              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#edit"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</button>
                             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#delete"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></button>
@@ -172,7 +174,7 @@
      <div class="modal-content">
        <form >
          <div class="modal-header">
-           <h4 class="modal-title">Edit User</h4>
+           <h4 class="modal-title">Pay Salary</h4>
            <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
          </div>
          <div class="modal-body">
@@ -187,10 +189,11 @@
                </div>
                <div class="col">
                  <div class="form-group">
-                   <label>User Status</label>
-                   <select class="form-control" id="User-status">
-                    <option>Active</option>
-                    <option>Block</option>
+                   <label>Salary Status</label>
+                   <select class="form-control" id="Salary-status">
+                    <option>Paid</option>
+                    <option>Pending</option>
+                    <option>Rejected</option>
                   </select>
                  </div>
                </div>

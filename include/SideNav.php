@@ -16,12 +16,16 @@
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
                               <hr class="dropdown-divider" >
-                            <a class="nav-link" href="/ICMS(ADMIN)-Master/Users/UserDashboard.php">Users</a>
+                            <a class="nav-link" href="/ICMS(ADMIN)-Master/Users/UserDashboard.php">User Dashboard</a>
                             <hr class="dropdown-divider" >
                             <a class="nav-link" href="/ICMS(ADMIN)-Master/Roles/role.php">Roles</a>
                               <hr class="dropdown-divider" >
                             <a class="nav-link" href="/ICMS(ADMIN)-Master/permission/Permissions.php">Permissions</a>
                               <hr class="dropdown-divider" >
+                              <a class="nav-link" href="/ICMS(ADMIN)-Master/Attendence/Attendence-dashboard.php">Attendence</a>
+                                <hr class="dropdown-divider" >
+                                <a class="nav-link" href="/ICMS(ADMIN)-Master/Salary/Salary.php">Salary</a>
+                                  <hr class="dropdown-divider" >
                         </nav>
                     </div>
                     <a class="nav-link" href="/ICMS(ADMIN)-Master/Orders/Orders.php">
@@ -52,9 +56,9 @@
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
                         Expenses
                     </a>
-                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Attendence/Attendence-dashboard.php">
+                    <a class="nav-link" href="/ICMS(ADMIN)-Master/Vans/Van.php">
                         <div class="sb-nav-link-icon"><i class="fa fa-list-alt"></i></div>
-                        Attendance
+                        Vans
                     </a>
                 </div>
             </div>

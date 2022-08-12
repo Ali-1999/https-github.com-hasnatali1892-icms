@@ -8,13 +8,13 @@ include('../include/Header.php')
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="../Dashboard.php">Dashboard</a></li>
                             <li class="breadcrumb-item"><a href="UserDashboard.php">Users</a></li>
-                              <li class="breadcrumb-item active">Create Users</li>
+                              <li class="breadcrumb-item active">Register User</li>
                         </ol>
                         <div class="container">
                           <div class="content">
                               <div class="container">
                                   <div class="page-title">
-                                      <h3>Create User</h3>
+                                      <h3>Register User</h3>
                                   </div>
                                   <div class="box box-primary">
                                       <div class="box-body">
